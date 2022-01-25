@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    
+    <script src="libraries/d3.min.js"></script>
+
+    <script src="libraries/moment.js"></script>
+    
+   
+    
+
+    
+  </head>
+
+  <body class ="homepage">
+    <script></script>
+    <div class="title">Bleggs</div>
+    <div class="text" id="intro">This version only supports data from the Mi Fit app. To export your information from the app, go to Profile > Settings > About > Exercising user rights > Export Data. Select the Sleep category to export, then select the desired data timeframe. Enter your email and the verification code. You will receive an email with a link to a page where you can download your data. Enter that link and click download. In order to extract the file you will need to use the password provided on the download link. To do so, extract the ZIP folder with 7Zip. Inside your folder you will have a .csv file starting with the word SLEEP followed by some numbers. That’s the file you should upload to this website!</div>
+    <div><button class="pick" type="button" id="gotoform">Got it!</button></div>
+    <div><input type="file"  id="csv" style="display:none;" class="choose"/> </div>
+ 
+    <div><input type="submit"  id="confirmcsv" style="display:none;" class= "pick"></div> 
+    <h1 id="wrapper" style="display:none;">
+      <div class="text2" >I want to see my</div>
+      <div><button class="pick" type="button" id="day" value="day">day</button> <button class="pick" type="button" id="week" value="week">week</button>  <button class="pick" type="button" id="month" value="month">month</button>     </div>
+    </div>
+
+
+    <h2 id="day2" style="display:none;">
+      <div class="text2" > Pick a date from: <span class="simple" id="date"></span> to <span class="simple" id="date2"> </span>
+        <div class="text3"> <input type="date" id="datePick" ></div>
+        <a  id="link"><input type="submit" id="confirm" class= "pick" onclick = "display()"></a>
+      </div>
+      <div id="date3"> </div>
+    </h1>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  </body>
+</html>
