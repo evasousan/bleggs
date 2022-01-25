@@ -3,6 +3,7 @@
 Bleggs are colorful fried egg-shaped blobs. They use different data from your night (or day) of rest to get that funky look. Even if you may not see it at first, Bleggs can tell you a lot of information about your sleeping hours such as your deep sleep, REM, waking time, total sleep time, etc. And they act accordingly! For example: a bad night of sleep will produce a very shaky, small Blegg; and a good night of sleep will produce a stable, healthy looking Blegg. This project uses data from collected from a SmartBand, so you can automatically collect yout data. You can see your day, week or month, and compare your many Bleggs! You can also save a cool PNG of your Bleggs as a nice memory! 🖼️
 
 This project was developed in the context of the Computational Design Laboratory course of the master’s degree in Design and Multimedia of the Faculty of Sciences and Technology of the University of Coimbra.
+
 ![Recording 2022-01-25 at 06 19 34](https://user-images.githubusercontent.com/58823281/150921975-701bef5f-7840-40be-9261-39b98fbb3f06.gif)
 
 *Sweet Blegg! 😺*
