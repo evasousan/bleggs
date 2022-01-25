@@ -10,10 +10,10 @@ This project was developed in the context of the Computational Design Laboratory
 You can test your sleeping data and create Bleggs here: https://student.dei.uc.pt/~evasantos/Bleggs/
 
 This project used some really helpfull libraries!
--P5.js https://github.com/processing/p5.js/
--D3.js https://github.com/d3/d3
--Moment.js https://github.com/moment/moment
--Html2Canvas.js https://github.com/niklasvh/html2canvas
+- P5.js https://github.com/processing/p5.js/
+- D3.js https://github.com/d3/d3
+- Moment.js https://github.com/moment/moment
+- Html2Canvas.js https://github.com/niklasvh/html2canvas
 
 To run this project you simply need to download the provided files and be sure to have the aforementioned libraries. Start by running index.html. There is also .csv file with values for you to test this project.
 
