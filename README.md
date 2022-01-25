@@ -16,6 +16,6 @@ This project used some really helpfull libraries!
 - Moment.js https://github.com/moment/moment
 - Html2Canvas.js https://github.com/niklasvh/html2canvas
 
-To run this project you simply need to download the provided files and be sure to have the aforementioned libraries. Start by running index.html. There is also .csv file with values for you to test this project.
+To run this project you simply need to download the provided files and be sure to have the aforementioned libraries. Start by running index.html. There is also a Sleep_Data.csv file with values for you to test this project. After you run the code, you only need to upload the .csv file and *voilà*! 
 
 Any questions you can contact me at evasousan@gmail.com.
